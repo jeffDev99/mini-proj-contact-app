@@ -1,0 +1,19 @@
+.contacts{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+}
+.leftCol{
+    flex: 2;
+}
+.rightCol{
+    flex: 1;
+    background-color: #121212;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+@media screen and (min-width:768px) {
+    .contacts{
+        flex-direction: row;
+    }
+}
